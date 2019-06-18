@@ -1,8 +1,6 @@
 # AwsData
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/aws_data`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Simple AWS data library helper.  Info like region and account id.
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+aws = AwsData.new
+aws.account # account id
+aws.region  # account id
+```
 
 ## Development
 
