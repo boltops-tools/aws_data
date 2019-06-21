@@ -21,9 +21,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require "aws_data"
 aws = AwsData.new
 aws.account # account id
-aws.region  # account id
+aws.region  # region
 ```
 
 ## Development
