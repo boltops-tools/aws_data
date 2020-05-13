@@ -65,7 +65,7 @@ class AwsData
 
 private
   def test?
-    ENV['TEST']
+    ENV['AWS_DATA_TEST']
   end
 
   # Cross-platform way of finding an executable in the $PATH.
